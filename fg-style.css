@@ -1,0 +1,53 @@
+h1, p, input{
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  h1, p{
+    padding-top: 10px;
+  }
+  
+  .vol {
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .vol:hover {
+    opacity: 1;
+  }
+  
+  .vol::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #5f8ea1;
+    cursor: pointer;
+  }
+  
+  .vol::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #5f8ea1;
+    cursor: pointer;
+  }
+  
+  .freq{
+   width: 100px;
+   border: none;
+   border-bottom: 3px solid;
+   text-align: center;
+  }
+  
+  .types{
+    border: 2px solid white;
+    cursor: pointer;
+  }

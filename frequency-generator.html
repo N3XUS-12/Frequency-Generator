@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="fg-style.css">
+</head>
+
+<body>
+
+<h1>Play Sound by Pressing Space</h1>
+
+<p>Volume |
+<input class="vol" type="range" min="0" max="1" step="0.01" value="0.5" onchange="changeVolume(this.value)">
+</p>
+
+<p>Frequency |
+<input type="text" class="freq">
+</p>
+
+<p>Wavelength |
+<select class="types">
+  <option value="sine">Sine</option>
+  <option value="square">Square</option>
+  <option value="triangle">Triangle</option>
+  <option value="sawtooth">Sawtooth</option>
+</select>
+</p>
+
+</body>
+
+<script src="fg-script.js"></script>
+
+</html>
